@@ -13,8 +13,8 @@ Begin Form
     Width =11520
     DatasheetFontHeight =11
     ItemSuffix =13
-    Right =5685
-    Bottom =6885
+    Right =17010
+    Bottom =7800
     DatasheetGridlinesColor =15132391
     RecSrcDt = Begin
         0xd55613367a44e440
@@ -61,7 +61,6 @@ Begin Form
             ForeTint =75.0
             GridlineThemeColorIndex =1
             GridlineShade =65.0
-            UseTheme =1
             Shape =1
             Gradient =12
             BackThemeColorIndex =4
@@ -71,14 +70,6 @@ Begin Form
             BorderThemeColorIndex =4
             BorderTint =60.0
             ThemeFontIndex =1
-            HoverThemeColorIndex =4
-            HoverTint =40.0
-            PressedThemeColorIndex =4
-            PressedShade =75.0
-            HoverForeThemeColorIndex =0
-            HoverForeTint =75.0
-            PressedForeThemeColorIndex =0
-            PressedForeTint =75.0
         End
         Begin TextBox
             AddColon = NotDefault
@@ -410,10 +401,6 @@ Begin Form
                     LayoutCachedHeight =576
                     BackColor =15123357
                     BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
                     WebImagePaddingRight =1
@@ -436,10 +423,6 @@ Begin Form
                     LayoutCachedHeight =660
                     BackColor =15123357
                     BorderColor =15123357
-                    HoverColor =15652797
-                    PressedColor =11957550
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
                     WebImagePaddingRight =1
@@ -457,5 +440,5 @@ Attribute VB_Exposed = False
 Option Compare Database
 
 Private Sub Command12_Click()
-MsgBox 'you clicked this button - change #3'
+MsgBox ("you clicked this button - change #3")
 End Sub
