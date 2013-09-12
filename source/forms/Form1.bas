@@ -457,5 +457,5 @@ Attribute VB_Exposed = False
 Option Compare Database
 
 Private Sub Command12_Click()
-MsgBox 'you clicked this button'
+MsgBox 'you clicked this button - change #3'
 End Sub
