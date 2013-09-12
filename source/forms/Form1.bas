@@ -13,8 +13,8 @@ Begin Form
     Width =11520
     DatasheetFontHeight =11
     ItemSuffix =13
-    Right =12795
-    Bottom =7830
+    Right =5685
+    Bottom =6885
     DatasheetGridlinesColor =15132391
     RecSrcDt = Begin
         0xd55613367a44e440
@@ -457,5 +457,5 @@ Attribute VB_Exposed = False
 Option Compare Database
 
 Private Sub Command12_Click()
-MsgBox 'this is the second version'
+MsgBox 'you clicked this button'
 End Sub
