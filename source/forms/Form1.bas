@@ -13,8 +13,8 @@ Begin Form
     Width =11520
     DatasheetFontHeight =11
     ItemSuffix =15
-    Right =10650
-    Bottom =7830
+    Right =12960
+    Bottom =7920
     DatasheetGridlinesColor =15132391
     RecSrcDt = Begin
         0xd55613367a44e440
@@ -204,7 +204,7 @@ Begin Form
                     BorderColor =8355711
                     ForeColor =8355711
                     Name ="Label10"
-                    Caption ="Query1"
+                    Caption ="Form Test"
                     GridlineColor =10921638
                     LayoutCachedLeft =60
                     LayoutCachedTop =60
