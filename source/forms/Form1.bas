@@ -12,7 +12,7 @@ Begin Form
     GridY =24
     Width =11520
     DatasheetFontHeight =11
-    ItemSuffix =14
+    ItemSuffix =15
     Right =10650
     Bottom =7830
     DatasheetGridlinesColor =15132391
@@ -286,6 +286,22 @@ Begin Form
                     WebImagePaddingRight =1
                     WebImagePaddingBottom =1
                     Overlaps =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =6420
+                    Top =180
+                    Width =630
+                    Height =285
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label14"
+                    Caption ="hello!"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =6420
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =7050
+                    LayoutCachedHeight =465
                 End
             End
         End
