@@ -12,9 +12,9 @@ Begin Form
     GridY =24
     Width =11520
     DatasheetFontHeight =11
-    ItemSuffix =13
-    Right =17010
-    Bottom =7800
+    ItemSuffix =14
+    Right =10650
+    Bottom =7830
     DatasheetGridlinesColor =15132391
     RecSrcDt = Begin
         0xd55613367a44e440
@@ -210,6 +210,82 @@ Begin Form
                     LayoutCachedTop =60
                     LayoutCachedWidth =1608
                     LayoutCachedHeight =1080
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =3780
+                    Top =300
+                    Width =576
+                    Height =576
+                    ForeColor =4210752
+                    Name ="Command13"
+                    Caption ="Command13"
+                    ControlTipText ="Find Next"
+                    GridlineColor =10921638
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="FindNext"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"Command13\" xmlns=\"http://schemas.microsoft.com/office/acce"
+                                "ssservices/2009/11/application\"><Statements><Action Name=\"FindNextRecord\"/></"
+                                "Statements></UserInterfaceMacro"
+                        End
+                        Begin
+                            Comment ="_AXL:>"
+                        End
+                    End
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000b17d4a39b17d4af3b17d4aff ,
+                        0xb17d4a8a00000000000000000000000000000000000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000b17d4a39b17d4af3 ,
+                        0xb17d4affb17d4a7e000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000b17d4a0fb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4aff727272ff727272ff727272ff727272ff727272ff727272ff ,
+                        0x0000000000000000b17d4a0fb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4aff727272ffffffffff727272ff727272ff727272ff727272ff ,
+                        0x000000000000000000000000000000000000000000000000b17d4a3cb58353ff ,
+                        0xb17d4affb17d4a7b727272ffffffffff727272ff727272ff727272ff727272ff ,
+                        0x000000000000000000000000727272ff00000000b17d4a3cb17d4af3b17d4aff ,
+                        0xb17d4a8a00000000727272ffffffffff727272ff727272ff727272ff727272ff ,
+                        0x000000000000000000000000727272ff727272ff0000000000000000ffffffff ,
+                        0x0000000000000000727272ffffffffff727272ff727272ff727272ff727272ff ,
+                        0x000000000000000000000000727272ff727272ff727272ff727272ffffffffff ,
+                        0x727272ff00000000727272ff727272ff727272ff727272ff727272ff727272ff ,
+                        0x727272ff727272ff727272ff727272ff727272ff727272ff727272ff727272ff ,
+                        0x727272ff0000000000000000727272ffffffffff727272ff727272ff727272ff ,
+                        0x727272ffffffffff727272ff727272ff727272ff727272ffffffffff727272ff ,
+                        0x000000000000000000000000727272ffffffffff727272ff727272ff727272ff ,
+                        0x727272ff727272ff727272ff727272ff727272ff727272ffffffffff727272fc ,
+                        0x00000000000000000000000000000000727272ff727272ff727272ff727272ff ,
+                        0x727272ff727272ff727272ff727272ff727272ff727272ff727272ff00000000 ,
+                        0x00000000000000000000000000000000727272ffffffffff727272ff727272ff ,
+                        0x727272ff00000000727272ff727272ff727272ffffffffff727272ff00000000 ,
+                        0x00000000000000000000000000000000727272ff727272ff727272ff727272ff ,
+                        0x727272ff00000000727272ff727272ff727272ff727272ff727272ff00000000 ,
+                        0x0000000000000000000000000000000000000000727272ffffffffff727272ff ,
+                        0x000000000000000000000000727272ffffffffff727272ff0000000000000000 ,
+                        0x0000000000000000000000000000000000000000727272ff727272ff727272ff ,
+                        0x000000000000000000000000727272ff727272ff727272fc0000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =3780
+                    LayoutCachedTop =300
+                    LayoutCachedWidth =4356
+                    LayoutCachedHeight =876
+                    BackColor =15123357
+                    BorderColor =15123357
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
                 End
             End
         End
