@@ -14,6 +14,10 @@ Begin Joins
     Expression ="Table1.ID = Table2.ID"
     Flag =1
 End
+Begin OrderBy
+    Expression ="Table2.Name2"
+    Flag =0
+End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbByte "RecordsetType" ="0"
@@ -49,6 +53,10 @@ Begin
         dbText "Name" ="Table2.Name2"
         dbLong "AggregateType" ="-1"
     End
+    Begin
+        dbText "Name" ="Table1.FIeld3"
+        dbLong "AggregateType" ="-1"
+    End
 End
 Begin
     State =0
@@ -58,8 +66,8 @@ Begin
     Bottom =539
     Left =-1
     Top =-1
-    Right =816
-    Bottom =294
+    Right =711
+    Bottom =277
     Left =0
     Top =0
     ColumnsShown =539
